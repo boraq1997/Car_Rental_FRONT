@@ -294,7 +294,6 @@ const openAddEditUserDialog = (user: any = null) => {
 };
 
 const saveUser = async () => {
-    console.log(isEditMode.value)
   isSaving.value = true;
   try {
     if (isEditMode.value) {

@@ -7,7 +7,7 @@ export interface Branch {
   address?: string;
   phone1?: string;
   phone2?: string;
-  manager?: {
+  manager_id?: {
     user_id: number;
     fullname: string;
     phone1: string;
