@@ -68,6 +68,7 @@ import Menu from 'primevue/menu';
 import Avatar from 'primevue/avatar';
 import Badge from 'primevue/badge';
 import Drawer from 'primevue/drawer';
+import { label } from '@primeuix/themes/aura/metergroup';
 
 // call services
 
@@ -152,7 +153,13 @@ const topItems = computed(() => [
     label: 'الفروع',
     icon: 'fa-solid fa-code-branch',
     command: ()=>router.push('/branches')
+  },
+  {
+    label: 'العجلات',
+    icon: 'fas fa-car',
+    command: ()=>router.push('/vehicles'),
   }
+  
 ]);
 
 // User profile dropdown menu items

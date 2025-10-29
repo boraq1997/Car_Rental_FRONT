@@ -3,12 +3,14 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Users from '../views/users/users.vue';
 import Home from '../views/home/home.vue';
 import Branches from '../views/branches/branches.vue';
+import Vehicles from '../views/vehicles/vehicles.vue';
 
 const routes = [
     {path: '/', name: '/login', component: auth},
     {path: '/home', name: 'home', component: Home},
     {path: '/users', name: 'users', component: Users},
     {path: '/branches', name: 'branches', component: Branches},
+    {path: '/vehicles', name: 'vehicles', component: Vehicles},
 ];
 
 // Create the Vue Router instance
